@@ -22,7 +22,7 @@ main {
 }
 
 nav {
-    background-color: hsla(194, 90%, 46%, 0.692);
+    background-color: hsla(194, 85%, 43%, 0.801);
     position: fixed;
     width: 100%;
     margin-top: -40px;
@@ -47,6 +47,7 @@ h4.info {
 
 .desc {
     background-color: hsla(0, 0%, 45%, 0.5);
+    font-family: 'Fauna One', serif;
     width: 100%;
     padding: 20px;
 }
@@ -57,6 +58,7 @@ h4.info {
 
 .title {
     background-color: hsla(0, 0%, 23%, 0.5);
+    font-family: 'Playfair Display', serif;
     padding: 20px;
     width: 100%;
 }
@@ -86,8 +88,9 @@ h4.info {
     background-color: hsla(0, 0%, 59%, 0.5);
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 
