@@ -8,12 +8,24 @@
 
 /* Element Styling */
 
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 body {
     text-align: center;    
 }
 
+main {
+    margin-top: 40px;
+}
+
 nav {
-    background-color: hsla(120, 1%, 36%, 0.5);
+    background-color: hsla(194, 90%, 46%, 0.692);
+    position: fixed;
+    width: 100%;
+    margin-top: -40px;
 }
 
 ul {
@@ -55,6 +67,11 @@ h4.info {
     background-color: hsla(0, 0%, 52%, 0.5);    
     margin: 20px;
    
+}
+
+.link {
+    color: white;
+    text-decoration: none;
 }
 
 .proj {
