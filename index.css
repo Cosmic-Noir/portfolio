@@ -1,0 +1,80 @@
+/* Resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Styling */
+
+body {
+    text-align: center;    
+}
+
+nav {
+     background-color: hsla(120, 6%, 34%, 0.5);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;   
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+h4.info {
+    background-color: hsla(120, 6%, 34%, 0.5);  
+    padding: 10px;
+}
+
+/* Class Styling */
+
+.contact {
+    background-color: hsla(120, 19%, 70%, 0.5);
+    padding: 20px;
+}
+
+.desc {
+    background-color: hsla(120, 19%, 70%, 0.5);
+    padding: 20px;
+}
+
+.title {
+    background-color: hsla(120, 19%, 70%, 0.5);
+    padding: 20px;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    background-color: hsla(120, 6%, 34%, 0.5);
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proj {
+    background-color: hsla(120, 6%, 34%, 0.5);
+    height: 300px;
+    margin: 20px;
+    width: 300px;
+}
+
+.projects {
+    padding: 10px;
+}
+
+
+
+/* ID Styling */
