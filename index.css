@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-     background-color: hsla(120, 6%, 34%, 0.5);
+    background-color: hsla(120, 1%, 36%, 0.5);
 }
 
 ul {
@@ -27,54 +27,51 @@ li {
 }
 
 h4.info {
-    background-color: hsla(120, 6%, 34%, 0.5);  
+    background-color: hsla(120, 1%, 36%, 0.5);  
     padding: 10px;
 }
 
 /* Class Styling */
 
-.contact {
-    background-color: hsla(120, 19%, 70%, 0.5);
+.desc {
+    background-color: hsla(0, 0%, 45%, 0.5);
+    width: 100%;
     padding: 20px;
 }
 
-.desc {
-    background-color: hsla(120, 19%, 70%, 0.5);
-    padding: 20px;
+.foot {
+    background-color: hsla(120, 1%, 36%, 0.5);
 }
 
 .title {
-    background-color: hsla(120, 19%, 70%, 0.5);
+    background-color: hsla(0, 0%, 23%, 0.5);
     padding: 20px;
+    width: 100%;
 }
 
 .image {
-    height: 300px;
-    width: 300px;
-    background-color: hsla(120, 6%, 34%, 0.5);
+    height: 200px;
+    width: 200px;
+    background-color: hsla(0, 0%, 52%, 0.5);    
     margin: 20px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.portfolio {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
 }
 
 .proj {
-    background-color: hsla(120, 6%, 34%, 0.5);
+    background-color: hsla(0, 0%, 45%, 0.5);
     height: 300px;
     margin: 20px;
-    width: 300px;
+    width: 100%;
 }
 
-.projects {
-    padding: 10px;
+.section {
+    align-items: center;
+    background-color: hsla(0, 0%, 59%, 0.5);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
 }
-
 
 
 /* ID Styling */
