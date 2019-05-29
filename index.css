@@ -42,21 +42,29 @@ h4.info {
 /* Class Styling */
 
 .appPic {
-    height: 300px;
+    height: 400px;
     padding: 10px;
-    width: 300px;
+    width: 400px;
+}
+
+.contact {
+    height: 50px;
+    padding: 5px;
+    width: 50px;
 }
 
 .desc {
     font-family: 'Fauna One', serif;
     font-size: 15px;
     line-height: 25px;
-    width: 100%;
+    max-width: 700px;
     padding: 20px;
 }
 
 .foot {
     background-color: hsla(194, 85%, 43%, 0.801);
+    color: white;
+    padding: 10px;
 }
 
 .title {
@@ -84,12 +92,13 @@ h4.info {
 }
 
 .info {
+    color: hsla(195, 87%, 12%, 0.801);
     padding: 10px;
+    text-shadow: 1px 1px hsla(194, 85%, 43%, 0.801);
 }
 
 .proj {
     align-items: center;
-    border: 1px solid black;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -107,6 +116,7 @@ h4.info {
 
 
 /* ID Styling */
+
 
 /* Media Queries */
 
