@@ -36,11 +36,16 @@ li {
 }
 
 h4.info {
-    background-color: hsla(120, 1%, 36%, 0.5);  
     padding: 10px;
 }
 
 /* Class Styling */
+
+.appPic {
+    height: 300px;
+    padding: 10px;
+    width: 300px;
+}
 
 .desc {
     font-family: 'Fauna One', serif;
@@ -88,7 +93,6 @@ h4.info {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 300px;
     margin: 20px;
     width: 100%;
 }
@@ -106,9 +110,10 @@ h4.info {
 
 /* Media Queries */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .proj {
         flex-direction: row;
+        flex-grow: 1;
     }
 }
 
