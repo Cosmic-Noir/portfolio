@@ -38,37 +38,26 @@ li {
     padding: 10px;
 }
 
-h4.info {
-    background-color: hsla(120, 1%, 36%, 0.5);  
-    padding: 10px;
-}
+
 
 /* Class Styling */
 
 .desc {
-    background-color: hsla(0, 0%, 45%, 0.5);
     font-family: 'Fauna One', serif;
     width: 100%;
     padding: 20px;
 }
 
 .foot {
-    background-color: hsla(120, 1%, 36%, 0.5);
+    background-color: hsla(194, 85%, 43%, 0.801);
 }
 
 .title {
-    background-color: hsla(0, 0%, 23%, 0.5);
+    color: hsla(0, 1%, 25%, 0.842);
     font-family: 'Playfair Display', serif;
     padding: 20px;
+    text-shadow: 2px 2px 2px hsla(308, 61%, 59%, 0.801);
     width: 100%;
-}
-
-.image {
-    height: 200px;
-    width: 200px;
-    background-color: hsla(0, 0%, 52%, 0.5);    
-    margin: 20px;
-   
 }
 
 .link {
@@ -85,11 +74,11 @@ h4.info {
 
 .section {
     align-items: center;
-    background-color: hsla(0, 0%, 59%, 0.5);
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 
 }
 
