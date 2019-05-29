@@ -23,6 +23,7 @@ main {
 
 nav {
     background-color: hsla(194, 85%, 43%, 0.801);
+    font-family: 'Fauna One', serif;
     position: fixed;
     width: 100%;
     margin-top: -40px;
@@ -44,6 +45,8 @@ li {
 
 .desc {
     font-family: 'Fauna One', serif;
+    font-size: 20px;
+    line-height: 25px;
     width: 100%;
     padding: 20px;
 }
@@ -53,10 +56,11 @@ li {
 }
 
 .title {
-    color: hsla(0, 1%, 25%, 0.842);
-    font-family: 'Playfair Display', serif;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
     padding: 20px;
-    text-shadow: 2px 2px 2px hsla(308, 61%, 59%, 0.801);
+    text-shadow: 1px 1px 7px hsl(300, 73%, 16%);
     width: 100%;
 }
 
