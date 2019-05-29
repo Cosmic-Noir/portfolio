@@ -12,22 +12,18 @@ a:hover {
     color: black;
     text-decoration: underline;
 }
-
 body {
     text-align: center;    
 }
-
 main {
     margin-top: 40px;
 }
-
 nav {
     background-color: hsla(194, 85%, 43%, 0.801);
     font-family: 'Fauna One', serif;
     position: fixed;
     width: 100%;
-    margin-top: -40px;
-}
+    margin-top: -40px;}
 
 ul {
     display: flex;
@@ -39,7 +35,10 @@ li {
     padding: 10px;
 }
 
-
+h4.info {
+    background-color: hsla(120, 1%, 36%, 0.5);  
+    padding: 10px;
+}
 
 /* Class Styling */
 
@@ -80,12 +79,15 @@ li {
 }
 
 .info {
-    color: hsla(194, 46%, 7%, 0.801);
     padding: 10px;
 }
 
 .proj {
+    align-items: center;
     border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     height: 300px;
     margin: 20px;
     width: 100%;
@@ -95,11 +97,21 @@ li {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-
+    padding: 20px;
+    margin: 10px;
 }
 
 
 /* ID Styling */
+
+/* Media Queries */
+
+@media screen and (min-width: 600px) {
+    .proj {
+        flex-direction: row;
+    }
+}
+
+
+
+
