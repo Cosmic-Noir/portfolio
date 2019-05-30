@@ -40,8 +40,9 @@ li {
     padding: 10px;
 }
 
-h4.info {
-    padding: 10px;
+li:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
 }
 
 /* Class Styling */
@@ -79,6 +80,11 @@ h4.info {
     padding: 20px;
     text-shadow: 1px 1px 10px hsl(291, 72%, 33%);
     width: 100%;
+}
+
+.title:hover {
+    -webkit-animation: tada 2s;
+    animation: tada 2s;
 }
 
 .link {
