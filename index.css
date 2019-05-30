@@ -12,6 +12,11 @@ a:hover {
     color: black;
     text-decoration: underline;
 }
+
+a:visited {
+    color: white;
+}
+
 body {
     text-align: center;    
 }
