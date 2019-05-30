@@ -130,7 +130,7 @@ h4.info {
 
 /* Media Queries */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .proj {
         flex-direction: row;
     }
