@@ -76,14 +76,6 @@ h4.info {
     width: 100%;
 }
 
-<<<<<<< HEAD
-.image {
-    height: 200px;
-    width: 200px;
-    background-color: hsla(0, 1%, 25%, 0.5);    
-    margin: 20px;
-   
-=======
 .link {
     color: white;
     text-decoration: none;
@@ -103,7 +95,6 @@ h4.info {
     color: hsla(195, 87%, 12%, 0.801);
     padding: 10px;
     text-shadow: 1px 1px hsla(194, 85%, 43%, 0.801);
->>>>>>> syle
 }
 
 .info {
@@ -112,17 +103,9 @@ h4.info {
 
 .proj {
     align-items: center;
-<<<<<<< HEAD
-    background-color: hsla(0, 0%, 45%, 0.5);
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 300px;
-=======
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
->>>>>>> syle
     margin: 20px;
     width: 100%;
 }
@@ -139,27 +122,13 @@ h4.info {
 /* ID Styling */
 
 
-<<<<<<< HEAD
 
 /* Media Queries */
 
 @media screen and (min-width: 600px) {
     .proj {
         flex-direction: row;
-=======
-/* Media Queries */
-
-@media screen and (min-width: 800px) {
-    .proj {
-        flex-direction: row;
-        flex-grow: 1;
->>>>>>> syle
     }
 }
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> syle
