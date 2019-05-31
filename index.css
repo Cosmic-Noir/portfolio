@@ -46,6 +46,7 @@ li {
     padding: 10px;
 }
 
+/* Also affects li in Resume */
 li:hover {
     -webkit-animation: tada 1s;
     animation: tada 1s;
@@ -132,6 +133,10 @@ li:hover {
     width: 100%;
 }
 
+.resume {
+    
+}
+
 .section {
     align-items: center;
     display: flex;
@@ -162,6 +167,10 @@ li:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .resume {
+        flex-direction: row;
     }
 
     .section {
