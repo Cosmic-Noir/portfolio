@@ -36,7 +36,7 @@ nav {
     z-index: 10;
 }
 
-ul {
+.navList {
     display: flex;
     flex-direction: row;   
     list-style: none;
@@ -46,6 +46,7 @@ li {
     padding: 10px;
 }
 
+/* Also affects li in Resume */
 li:hover {
     -webkit-animation: tada 1s;
     animation: tada 1s;
@@ -71,6 +72,7 @@ li:hover {
     line-height: 25px;
     max-width: 500px;
     padding: 20px;
+    list-style-type: none;
 }
 
 .foot {
@@ -108,6 +110,11 @@ li:hover {
 
 }
 
+.js-hidden {
+    display: none;
+    
+}
+
 .info {
     color: hsla(195, 87%, 12%, 0.801);
     padding: 10px;
@@ -127,12 +134,26 @@ li:hover {
     width: 100%;
 }
 
+.resume {
+    display: flex;
+    flex-direction: column;
+}
+
 .section {
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin: 10px;
+}
+
+.skillList {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 400px;
 }
 
 
@@ -151,13 +172,18 @@ li:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    main {
+    .js-home {
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    .resume {
+        flex-direction: row;
+    }
+
     .section {
         padding-right: 0px;
         padding-left: 0px;

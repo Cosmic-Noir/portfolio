@@ -13,54 +13,99 @@
 </head>
 <body>
     <nav role="Navigation bar">
-        <ul>
-            <li><a href="" class="link">KD</a></li>
-            <li><a href="#bio" class="link">Bio</a></li>
-            <li><a href="#portfolio" class="link">Portfolio</a></li>
-            <li><a href="#contact" class="link">Contact</a></li>
+        <ul class="navList">
+            <li><a href="" class="link begin">KD</a></li>
+            <li><a href="#bio" class="link begin">Bio</a></li>
+            <li><a href="#portfolio" class="link begin">Portfolio</a></li>
+            <li><a href="#contact" class="link begin">Contact</a></li>
+            <li><a href="#resume" class="link js-skills">Resume</a></li>
         </ul>
     </nav>
     <main role="Main">
-        <section class="section" id="bio" data-aos="zoom-in" role="Short biography and personal introduction">
-            <h2 class="title">Turn Problems Into Positive</h2>
-            <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slower">
-            <p class="desc">I'm an enthusiastic indivisual with a need to creatively solve problems. In fact, I believe that problems are truly opportunities for playful improvement. I love finding and refining solutions to complex issues that might require an "out of the box" approach. Let's solve more together!
-            <br><br>
-            Outside of coding, I'm slaying zombies (in games!), training my kitties, sippin' whiskey or tea, reading and writing fantasy, and biking through the beloved foothills of northern Colorado. </p>
-        </section>
-        <section class="section" id="portfolio" role="Portfolio projects">
-            <h2 class="title" data-aos="zoom-in-down">Portfolio:</h2>
-            <div class="proj" data-aos="fade-left">
-                <div class="subProj">
-                    <h3 class="info">Zelda OoT Quiz App</h3>
-                    <p class="desc">Interactive web application <br>testing Zelda Ocarina of Time knowledge.</p>
-                    <p class="desc">HTML, CSS, JavaScript, jQuery</p>
-                    <span><a href="https://cosmic-noir.github.io/ZeldaQuizApp/" class="live" target="_blank">Live</a></span>
-                    <span><a href="https://github.com/Cosmic-Noir/ZeldaQuizApp" class="live" target="_blank"> Repo</a></span>
-                </div>
-                <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"><img src="images/zeldaApp.png" alt="Example image of application" class="appPic"></a>
+        <div class="js-hideMe1">
+            <div class="js-home">
+                <section class="section" id="bio" data-aos="zoom-in" role="Short biography and personal introduction">
+                    <h2 class="title">Turn Problems Into Positive</h2>
+                    <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slower">
+                    <p class="desc">I'm an enthusiastic indivisual with a need to creatively solve problems. In fact, I believe that problems are truly opportunities for playful improvement. I love finding and refining solutions to complex issues that might require an "out of the box" approach. Let's solve more together!
+                    <br><br>
+                    Outside of coding, I'm slaying zombies (in games!), training my kitties, sippin' whiskey or tea, reading and writing fantasy, and biking through the beloved foothills of northern Colorado. </p>
+                </section>
+                <section class="section" id="portfolio" role="Portfolio projects">
+                    <h2 class="title" data-aos="zoom-in-down">Portfolio:</h2>
+                        <div class="proj" data-aos="fade-left">
+                            <div class="subProj">
+                                <h3 class="info">Zelda OoT Quiz App</h3>
+                                <p class="desc">Interactive web application <br>testing Zelda Ocarina of Time knowledge.</p>
+                                <p class="desc">HTML, CSS, JavaScript, jQuery</p>
+                                <span><a href="https://cosmic-noir.github.io/ZeldaQuizApp/" class="live" target="_blank">Live</a></span>
+                                <span><a href="https://github.com/Cosmic-Noir/ZeldaQuizApp" class="live" target="_blank"> Repo</a></span>
+                            </div>
+                            <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"><img src="images/zeldaApp.png" alt="Example image of application" class="appPic"></a>
+                        </div>
+                </section>
+                <section class="section" id="contact" data-aos="zoom-in-up" role="Contact information">
+                    <h2 class="title">Contact:</h2>               
+                    <h3 class="info"><a href="mailto:doucette.kr@gmail.com" target="_blank" id="eMail">Doucette.Kr@gmail.com</a></h3>
+                    <div class="comm" role="Alternate contact icons">
+                        <a href="https://github.com/Cosmic-Noir" target="_blank"><img src="images/github.png" alt="gitHub link" class="contact"></a>
+                        <a href="https://www.linkedin.com/in/kristen-doucette-303bb22a/" target="_blank"><img src="images/linkedin.png" alt="linkedin link" class="contact"></a>
+                        <a href="mailto:doucette.kr@gmail.com" target="_blank"><img src="images/email.png" alt="email link" class="contact"></a>
+                    </div>
+                </section>
             </div>
-        </section>
-        <section class="section" id="contact" data-aos="zoom-in-up" role="Contact information">
-            <h2 class="title">Contact:</h2>
-            <h3 class="info"><a href="mailto:doucette.kr@gmail.com" target="_blank" id="eMail">Doucette.Kr@gmail.com</a></h3>
-            <div class="comm" role="Alternate contact icons">
-                <a href="https://github.com/Cosmic-Noir" target="_blank"><img src="images/github.png" alt="gitHub link" class="contact"></a>
-                <a href="https://www.linkedin.com/in/kristen-doucette-303bb22a/" target="_blank"><img src="images/linkedin.png" alt="linkedin link" class="contact"></a>
-                <a href="mailto:doucette.kr@gmail.com" target="_blank"><img src="images/email.png" alt="email link" class="contact"></a>
+        </div>
+        <div class="js-hideMe2 js-hidden">
+            <h3 class="title">Resume</h2>
+            <div class="resume js-fadeIn">    
+                <section class="section">
+                    <h2 class="info">Work History</h2>
+                    <ul class="desc">
+                        <li class="hist"><strong>Healthcare Account Specialist - UChealth</strong> <em>Feb 2017-Present</em></e></li>
+                        <li class="hist"><strong>Cytology Assistant II - Summit Pathology</strong> <em>Jun 2016-Dec 2016</em></li>
+                        <li class="hist"><strong>Medical Scirbe and Trainer - Elite Medical Scribes</strong> <em>May 2015-March 2016</em></li>
+                        <li class="hist"><strong>Research Assistant - University of Minnesota Medical Center</strong> <em>Sep 2014-May 2015</em></li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h2 class="info">Skills</h2>
+                    <ul class="skillList">
+                        <li class="skill">HTML5</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">jQuery</li>
+                        <li class="skill">ReactJS</li>
+                        <li class="skill">ReactJS</li>
+                        <li class="skill">Object Oriented Programming</li>
+                    </ul>
+                </section>
+                <section class="section">
+                        <h2 class="info">Education</h2>
+                        <ul class="skillList">
+                            <li class="skill">Bloc - Web Development 2019-Present</li>
+                            <li class="skill">B.S. Psychology - Univeristy of Minnesota, Twin Cities</li>
+                        </ul>
+                </section>
             </div>
-        </section>
+        </div>
     </main>
     <footer class="foot">
         <h4>&copy; 2020.</h2>
             
     </footer>
+    <!-- AOS CDN and link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 2000,
         });
-        console.log("AOS.init should have run.");
+        console.log('`AOS.init` has run');
     </script>
+    <!-- jQuery CDN and link-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js" 
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
