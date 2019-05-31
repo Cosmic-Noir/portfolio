@@ -13,8 +13,12 @@ a:hover {
     text-decoration: underline;
 }
 
-a:visited {
+a.link:visited {
     color: white;
+}
+
+a.live:visited {
+    color: hsla(194, 85%, 43%, 0.801);
 }
 
 body {
