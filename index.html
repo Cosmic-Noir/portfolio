@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fauna+One&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -20,16 +21,16 @@
         </ul>
     </nav>
     <main>
-        <section class="section" id="bio">
+        <section class="section" id="bio" data-aos="zoom-in">
             <h2 class="title">Turn Problems Into Positive</h2>
-            <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slow">
+            <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slower">
             <p class="desc">I'm an enthusiastic indivisual with a need to creatively solve problems. In fact, I believe that problems are truly opportunities for playful improvement. I love finding and refining solutions to complex issues that might require an "out of the box" approach. Let's solve more together!
             <br><br>
             Outside of coding, I'm slaying zombies (in games!), training my kitties, sippin' whiskey or tea, reading and writing fantasy, and biking through the beloved foothills of northern Colorado. </p>
         </section>
         <section class="section" id="portfolio">
-            <h2 class="title">Portfolio:</h2>
-            <div class="proj">
+            <h2 class="title" data-aos="zoom-in-down">Portfolio:</h2>
+            <div class="proj" data-aos="fade-left">
                 <div class="subProj">
                     <h3 class="info">Zelda OoT Quiz App</h3>
                     <p class="desc">Interactive web application testing Zelda Ocarina of Time knowledge.</p>
@@ -40,7 +41,7 @@
                 <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"><img src="images/zeldaApp.png" alt="Example image of application" class="appPic"></a>
             </div>
         </section>
-        <section class="section" id="contact">
+        <section class="section" id="contact" data-aos="zoom-in-down">
             <h2 class="title">Contact:</h2>
             <h3 class="info"><a href="mailto:doucette.kr@gmail.com" target="_blank" id="eMail">Doucette.Kr@gmail.com</a></h3>
             <div class="comm">
@@ -54,5 +55,12 @@
         <h4>&copy; 2020.</h2>
             
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+        console.log("AOS.init should have run.");
+    </script>
 </body>
 </html>
