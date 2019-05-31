@@ -108,7 +108,7 @@ li:hover {
 
 }
 
-.hidden {
+.js-hidden {
     display: none;
     
 }
@@ -156,13 +156,14 @@ li:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    .home {
+    .js-home {
         align-items: center;
         justify-content: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .section {
         padding-right: 0px;
         padding-left: 0px;
