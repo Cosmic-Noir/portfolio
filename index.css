@@ -108,6 +108,11 @@ li:hover {
 
 }
 
+.hidden {
+    display: none;
+    
+}
+
 .info {
     color: hsla(195, 87%, 12%, 0.801);
     padding: 10px;
@@ -151,7 +156,7 @@ li:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    main {
+    .home {
         align-items: center;
         justify-content: center;
         display: flex;
