@@ -28,7 +28,9 @@ nav {
     font-family: 'Fauna One', serif;
     position: fixed;
     width: 100%;
-    margin-top: -40px;}
+    margin-top: -40px;
+    z-index: 10;
+}
 
 ul {
     display: flex;
@@ -41,8 +43,8 @@ li {
 }
 
 li:hover {
-    -webkit-animation: pulse 1s;
-    animation: pulse 1s;
+    -webkit-animation: tada 1s;
+    animation: tada 1s;
 }
 
 /* Class Styling */
@@ -82,10 +84,10 @@ li:hover {
     width: 100%;
 }
 
-.title:hover {
+/* .title:hover {
     -webkit-animation: tada 2s;
     animation: tada 2s;
-}
+} */
 
 .link {
     color: white;
