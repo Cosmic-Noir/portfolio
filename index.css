@@ -180,6 +180,10 @@ li:hover {
         flex-wrap: wrap;
     }
 
+    .hideMe3 {
+        display: none;
+    }
+
     .resume {
         flex-direction: row;
     }
