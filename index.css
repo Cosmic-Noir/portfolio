@@ -110,11 +110,6 @@ li:hover {
 
 }
 
-.js-hidden {
-    display: none;
-    
-}
-
 .info {
     color: hsla(195, 87%, 12%, 0.801);
     padding: 10px;
@@ -178,10 +173,6 @@ li:hover {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    .hideMe3 {
-        display: none;
     }
 
     .resume {
