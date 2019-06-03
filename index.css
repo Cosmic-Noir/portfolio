@@ -55,9 +55,9 @@ li:hover {
 /* Class Styling */
 
 .appPic {
-    height: 400px;
+    height: 300px;
     padding: 10px;
-    width: 400px;
+    width: 300px;
 }
 
 .contact {
@@ -82,18 +82,12 @@ li:hover {
 }
 
 .title {
-    color: white;
+    color: hsl(291, 33%, 45%);
     font-family: 'Lobster', cursive;
     font-size: 32px;
     padding: 20px;
-    text-shadow: 1px 1px 10px hsl(291, 72%, 33%);
     width: 100%;
 }
-
-/* .title:hover {
-    -webkit-animation: tada 2s;
-    animation: tada 2s;
-} */
 
 .link {
     color: white;
@@ -111,9 +105,8 @@ li:hover {
 }
 
 .info {
-    color: hsla(195, 87%, 12%, 0.801);
+    color: hsla(197, 93%, 6%, 0.801);
     padding: 10px;
-    text-shadow: 1px 1px hsla(194, 85%, 43%, 0.801);
 }
 
 .info {
@@ -163,6 +156,11 @@ li:hover {
 @media screen and (min-width: 700px) {
     .proj {
         flex-direction: row;
+    }
+
+    .appPic {
+        height: 400px;
+        width: 400px;
     }
 }
 
