@@ -23,6 +23,8 @@ a.live:visited {
 
 body {
   text-align: center;
+  width: 100%;
+  overflow-x: hidden;
 }
 main {
   margin-top: 40px;
@@ -30,6 +32,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* width: 90%; */
 }
 nav {
   background-color: hsla(194, 85%, 43%, 0.801);
@@ -38,12 +41,6 @@ nav {
   width: 100%;
   margin-top: -40px;
   z-index: 10;
-}
-
-.navList {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
 }
 
 li {
@@ -116,12 +113,18 @@ li:hover {
   padding: 10px;
 }
 
+.navList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
 .proj {
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 0px;
   width: 100%;
 }
 
