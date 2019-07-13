@@ -32,7 +32,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 90%; */
 }
 nav {
   background-color: hsla(194, 85%, 43%, 0.801);
@@ -56,7 +55,7 @@ li:hover {
 /* Class Styling */
 
 .appPic {
-  height: 300px;
+  height: 250px;
   padding: 10px;
   width: 300px;
 }
@@ -71,8 +70,8 @@ li:hover {
   font-family: "Fauna One", serif;
   font-size: 15px;
   line-height: 25px;
-  max-width: 900px;
-  padding: 10px;
+  max-width: 800px;
+  padding: 20px;
   list-style-type: none;
 }
 
@@ -157,24 +156,29 @@ li:hover {
 
 /* Media Queries */
 
-@media screen and (min-width: 700px) {
-  .proj {
-    flex-direction: row;
-  }
-
+@media screen and (min-width: 500px) {
   .appPic {
-    height: 400px;
+    height: 300px;
     width: 400px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
+  .appPic {
+    height: 400px;
+    width: 500px;
+  }
+
   .js-home {
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .proj {
+    flex-direction: row;
   }
 
   .resume {
