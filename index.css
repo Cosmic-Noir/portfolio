@@ -71,8 +71,8 @@ li:hover {
   font-family: "Fauna One", serif;
   font-size: 15px;
   line-height: 25px;
-  max-width: 320px;
-  padding: 0px;
+  max-width: 900px;
+  padding: 10px;
   list-style-type: none;
 }
 
