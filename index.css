@@ -63,9 +63,9 @@ li:hover {
 /* Class Styling */
 
 .appPic {
-  height: 400px;
+  height: 300px;
   padding: 10px;
-  width: 400px;
+  width: 350px;
 }
 
 .contact {
@@ -170,6 +170,14 @@ li:hover {
 @media screen and (min-width: 700px) {
   .proj {
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .appPic {
+    height: 400px;
+    padding: 10px;
+    width: 450px;
   }
 }
 
