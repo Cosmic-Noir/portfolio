@@ -63,9 +63,10 @@ li:hover {
 /* Class Styling */
 
 .appPic {
-  height: 250px;
+  display: none;
+  /* height: 250px;
   padding: 10px;
-  width: 300px;
+  width: 300px; */
 }
 
 .contact {
@@ -111,6 +112,12 @@ li:hover {
 
 .info {
   padding: 10px;
+}
+
+.mobilePic {
+  height: 300px;
+  margin-top: 20px;
+  width: 220px;
 }
 
 .proj {
@@ -175,8 +182,12 @@ li:hover {
 
 @media screen and (min-width: 500px) {
   .appPic {
+    display: inline-block;
     height: 300px;
     width: 400px;
+  }
+  .mobilePic {
+    display: none;
   }
 }
 
