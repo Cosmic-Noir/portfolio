@@ -1,132 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Kristen's Portfolio</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Fauna+One&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" SameSite="none">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fauna+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <nav>
-        <ul class="navList">
-            <li><a href="" class="link">KD</a></li>
-            <li><a href="#portfolio" class="link">Portfolio</a></li>
-            <li><a href="#contact" class="link">Contact</a></li>
-        </ul>
+      <ul class="navList">
+        <li><a href="" class="link">KD</a></li>
+        <li><a href="#portfolio" class="link">Portfolio</a></li>
+        <li><a href="#contact" class="link">Contact</a></li>
+      </ul>
     </nav>
-    <main role="main">
-        <section class="section" data-aos="zoom-in">
-            <h2 class="title">Turn Problems Into Positive</h2>
-            <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slow" role="link">
-            <h3 class="subTitle">Full Stack Web Developer</h3>
+    <main>
+      <div class="section" data-aos="zoom-in">
+        <h2 class="title">Turn Problems Into Positive</h2>
+        <img
+          src="images/logo3.png"
+          alt="KD logo"
+          class="animated bounceInDown slow"
+          role="link"
+        />
+        <h3 class="subTitle">Full Stack Web Developer</h3>
 
-            <p class="desc" id="bio">I'm an enthusiastic individual with a need to creatively solve problems. I believe that problems are opportunities for playful improvement. I love finding and refining solutions to complex issues that might require an "out of the box" approach. I relish the opprotunity to work collaboratively and investigate problems with a team. I want to use programming and web development to help people everywhere communicate, connect, and understand one another so that we may solve even bigger problems together. 
-            <br><br>
-            Outside of coding, I'm slaying zombies, training my kitties, sipping tea, reading and writing fantasy, and biking through the beloved foothills of northern Colorado. </p>
+        <p class="desc" id="bio">
+          I'm an enthusiastic individual with a need to creatively solve
+          problems. I believe that problems are opportunities for playful
+          improvement. I love finding and refining solutions to complex issues
+          that might require an "out of the box" approach. I relish the
+          opprotunity to work collaboratively and investigate problems with a
+          team. I want to use programming and web development to help people
+          everywhere communicate, connect, and understand one another so that we
+          may solve even bigger problems together. <br /><br />
+          Outside of coding, I'm slaying zombies, training my kitties, sipping
+          tea, reading and writing fantasy, and biking through the beloved
+          foothills of northern Colorado.
+        </p>
+      </div>
+      <div class="section" id="portfolio">
+        <h2 class="title">Portfolio:</h2>
+        <section class="proj" data-aos="fade-right">
+          <div class="flex">
+            <h3 class="info">Balance</h3>
+            <p class="desc">
+              Full stack personal budgeting application. Allows users to create
+              custom monthly budgets with reusable templates. Calculates user's
+              leftover income each paycheck and provides monthly reports on
+              spending.
+            </p>
+            <p class="desc">
+              HTML, CSS, JavaScript, React, Jest, Express, PSQL, Knex
+            </p>
+            <span
+              ><a
+                href="https://balance-app.cosmicnoir.now.sh/"
+                class="live"
+                target="_blank"
+                >Live</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/balance-app"
+                class="live"
+                target="_blank"
+                >Client Repo</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/balance-api"
+                class="live"
+                target="_blank"
+                >API Repo</a
+              ></span
+            >
+          </div>
+          <a href="https://balance-app.cosmicnoir.now.sh/" target="_blank"
+            ><img
+              src="images/deskRepo1.png"
+              alt="Example image of application"
+              class="appPic "
+              role="link"
+          /></a>
         </section>
-        <section class="section" id="portfolio" >
-            <h2 class="title">Portfolio:</h2>
-            <section class="proj" data-aos="fade-right">
-                <div class="flex">
-                    <h3 class="info">Balance</h3>
-                    <p class="desc">Full stack personal budgeting application. Allows users to create custom monthly budgets with reusable templates. Calculates user's leftover income each paycheck and provides monthly reports on spending. </p>
-                    <p class="desc">HTML, CSS, JavaScript, React, Jest, Express, PSQL, Knex</p>
-                    <span><a href="https://balance-app.cosmicnoir.now.sh/" class="live" target="_blank">Live</a></span>
-                    <span><a href="https://github.com/Cosmic-Noir/balance-app" class="live" target="_blank">Client Repo</a></span>
-                    <span><a href="https://github.com/Cosmic-Noir/balance-api" class="live" target="_blank">API Repo</a></span>
+        <section class="proj" data-aos="fade-left">
+          <div class="flex">
+            <h3 class="info">Trash Tracker</h3>
+            <p class="desc">
+              Full stack application that allows users to participate in the
+              trending Trash# Challenge. Users can post 'trash sites',
+              coordinate with others, clean up sites, and track an overal global
+              score.
+            </p>
+            <p class="desc">
+              HTML, CSS, JavaScript, React, Jest, Express, PSQL, Knex
+            </p>
+            <span
+              ><a
+                href="https://trash-tag-tracker-app.cosmicnoir.now.sh/"
+                class="live"
+                target="_blank"
+                >Live</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/trash-tag-tracker-app"
+                class="live"
+                target="_blank"
+                >Client Repo</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/trash-tracker-api"
+                class="live"
+                target="_blank"
+                >API Repo</a
+              ></span
+            >
+          </div>
+          <a
+            href="https://trash-tag-tracker-app.cosmicnoir.now.sh/"
+            target="_blank"
+            ><img
+              src="images/tt.png"
+              alt="Example image of application"
+              class="appPic"
+              role="link"
+          /></a>
+        </section>
+        <section class="proj" data-aos="fade-right">
+          <div class="flex">
+            <h3 class="info">VidVoid</h3>
+            <p class="desc">
+              Media exploration app that suggests TV shows or movies and create
+              sharable playlists.
+            </p>
+            <p class="desc">HTML, CSS, JavaScript, jQuery</p>
+            <span
+              ><a
+                href="https://vidvoid.cosmicnoir.now.sh/"
+                class="live"
+                target="_blank"
+                >Live</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/vidVoid"
+                class="live"
+                target="_blank"
+              >
+                Repo</a
+              ></span
+            >
+          </div>
+          <a href="https://vidvoid.cosmicnoir.now.sh/" target="_blank"
+            ><img
+              src="images/vidVoid.png"
+              alt="Example image of application"
+              class="appPic"
+          /></a>
+        </section>
+        <section class="proj" data-aos="fade-left">
+          <div class="flex">
+            <h3 class="info">Zelda OoT Quiz App</h3>
+            <p class="desc">
+              Interactive web application <br />testing Zelda Ocarina of Time
+              knowledge.
+            </p>
+            <p class="desc">HTML, CSS, JavaScript, jQuery</p>
+            <span
+              ><a
+                href="https://cosmic-noir.github.io/ZeldaQuizApp/"
+                class="live"
+                target="_blank"
+                >Live</a
+              ></span
+            >
+            <span
+              ><a
+                href="https://github.com/Cosmic-Noir/ZeldaQuizApp"
+                class="live"
+                target="_blank"
+              >
+                Repo</a
+              ></span
+            >
+          </div>
+          <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"
+            ><img
+              src="images/zeldaApp.png"
+              alt="Example image of application"
+              class="appPic"
+              role="link"
+          /></a>
+        </section>
+      </div>
+      <section class="section" id="resume" data-aos="fade-left">
+        <h2 class="info">Skills</h2>
+        <ul class="skillList">
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://en.wikipedia.org/wiki/HTML#targetText=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript."
+              target="_blank"
+              >HTML5</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS#targetText=Cascading%20Style%20Sheets%20(CSS)%20is,speech%2C%20or%20on%20other%20media."
+              target="_blank"
+              >CSS</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://www.javascript.com/" target="_blank"
+              >JavaScript</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://www.w3schools.com/xml/ajax_intro.asp"
+              target="_blank"
+              >AJAX/JSON/XML</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://www.w3schools.com/nodejs/"
+              target="_blank"
+              >Node.js</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://expressjs.com/" target="_blank"
+              >Express</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://www.postgresql.org/" target="_blank"
+              >PostgreSQL</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://jestjs.io/" target="_blank"
+              >Jest/Enzyme</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://restfulapi.net/" target="_blank"
+              >Restful APIs</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://tutorials.ubuntu.com/tutorial/command-line-for-beginners#0"
+              target="_blank"
+              >Linux Command Line</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://jquery.com/" target="_blank"
+              >jQuery</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://reactjs.org/" target="_blank"
+              >ReactJS</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"
+              target="_blank"
+              >Object Oriented Programming</a
+            >
+          </li>
 
-                </div>
-                <a href="https://balance-app.cosmicnoir.now.sh/" target="_blank"><img src="images/deskRepo1.png" alt="Example image of application" class="appPic " role="link"></a>
-            </section>
-            <section class="proj" data-aos="fade-left">
-                    <div class="flex">
-                        <h3 class="info">Trash Tracker</h3>
-                        <p class="desc">Full stack application that allows users to participate in the trending Trash# Challenge. Users can post 'trash sites', coordinate with others, clean up sites, and track an overal global score. </p>
-                        <p class="desc">HTML, CSS, JavaScript, React, Jest, Express, PSQL, Knex</p>
-                        <span><a href="https://trash-tag-tracker-app.cosmicnoir.now.sh/" class="live" target="_blank">Live</a></span>
-                        <span><a href="https://github.com/Cosmic-Noir/trash-tag-tracker-app" class="live" target="_blank">Client Repo</a></span>
-                        <span><a href="https://github.com/Cosmic-Noir/trash-tracker-api" class="live" target="_blank">API Repo</a></span>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://github.com/Cosmic-Noir"
+              target="_blank"
+              >Git & GitHub</a
+            >
+          </li>
+        </ul>
+        <h2 class="info">Education</h2>
+        <ul class="skillList">
+          <li class="skill">
+            <a class="skill" href="https://www.bloc.io/" target="_blank"
+              >Bloc - Web Development 2019-Present</a
+            >
+          </li>
+          <li class="skill">
+            <a
+              class="skill"
+              href="https://www.codecademy.com/profiles/cosmic_noir"
+              target="_blank"
+              >Codecademy - Web Development - 250 Hours of coursework</a
+            >
+          </li>
+          <li class="skill">
+            <a class="skill" href="https://twin-cities.umn.edu/" target="_blank"
+              >B.S. Psychology - Univeristy of Minnesota, Twin Cities</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="contact" data-aos="zoom-in-up">
+        <h2 class="title">Contact:</h2>
+        <h3 class="info">
+          <a href="mailto:doucette.kr@gmail.com" target="_blank" id="eMail"
+            >Doucette.Kr@gmail.com</a
+          >
+        </h3>
+        <div class="comm">
+          <!-- <a href="https://www.hackerrank.com/doucette_kr?hr_r=1" target="_blank"><img src="images/hackerRank.png" alt="Replit link" class="contact"></a> -->
+          <!-- <a href="https://repl.it/@KristenDoucette" target="_blank"><img src="images/replit.png" alt="Replit link" class="contact"></a> -->
+          <a
+            href="https://www.linkedin.com/in/kristen-doucette-303bb22a/"
+            target="_blank"
+            ><img
+              src="images/linkedin.png"
+              alt="linkedin link"
+              class="contact"
+              role="link"
+          /></a>
+          <a href="https://github.com/Cosmic-Noir" target="_blank"
+            ><img
+              src="images/github.png"
+              alt="gitHub link"
+              class="contact"
+              role="link"
+          /></a>
 
-                    </div>
-                    <a href="https://trash-tag-tracker-app.cosmicnoir.now.sh/" target="_blank"><img src="images/tt.png" alt="Example image of application" class="appPic" role="link"></a>
-                </section>
-            <section class="proj" data-aos="fade-right">
-                <div class="flex">
-                    <h3 class="info">VidVoid</h3>
-                    <p class="desc">Media exploration app that suggests TV shows or movies and create sharable playlists. </p>
-                    <p class="desc">HTML, CSS, JavaScript, jQuery</p>
-                    <span><a href="https://vidvoid.cosmicnoir.now.sh/" class="live" target="_blank">Live</a></span>
-                    <span><a href="https://github.com/Cosmic-Noir/vidVoid" class="live" target="_blank"> Repo</a></span>
-                </div>
-                <a href="https://vidvoid.cosmicnoir.now.sh/" target="_blank"><img src="images/vidVoid.png" alt="Example image of application" class="appPic"></a>
-            </section>
-            <section class="proj" data-aos="fade-left">
-                <div class="flex">
-                    <h3 class="info">Zelda OoT Quiz App</h3>
-                    <p class="desc">Interactive web application <br>testing Zelda Ocarina of Time knowledge.</p>
-                    <p class="desc">HTML, CSS, JavaScript, jQuery</p>
-                    <span><a href="https://cosmic-noir.github.io/ZeldaQuizApp/" class="live" target="_blank">Live</a></span>
-                    <span><a href="https://github.com/Cosmic-Noir/ZeldaQuizApp" class="live" target="_blank"> Repo</a></span>
-                </div>
-                <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"><img src="images/zeldaApp.png" alt="Example image of application" class="appPic" role="link"></a>
-            </section>
+          <a href="mailto:doucette.kr@gmail.com" target="_blank"
+            ><img
+              src="images/email.png"
+              alt="email link"
+              class="contact"
+              role="link"
+          /></a>
         </div>
-        <section class="section" id="resume" data-aos="fade-left">
-            <h2 class="info">Skills</h2>
-            <ul class="skillList">
-                <li class="skill"><a class="skill" href="https://en.wikipedia.org/wiki/HTML#targetText=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript." target="_blank">HTML5</a></li>
-                <li class="skill"><a class="skill" href="https://developer.mozilla.org/en-US/docs/Web/CSS#targetText=Cascading%20Style%20Sheets%20(CSS)%20is,speech%2C%20or%20on%20other%20media." target="_blank">CSS</a></li>
-                <li class="skill"><a class="skill" href="https://www.javascript.com/" target="_blank">JavaScript</a></li>
-                <li class="skill"><a class="skill" href="https://www.w3schools.com/xml/ajax_intro.asp" target="_blank">AJAX/JSON/XML</a></li>
-                <li class="skill"><a class="skill" href="https://www.w3schools.com/nodejs/" target="_blank">Node.js</a></li>
-                <li class="skill"><a class="skill" href="https://expressjs.com/" target="_blank">Express</a></li>
-                <li class="skill"><a class="skill" href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></li>
-                <li class="skill"><a class="skill" href="https://jestjs.io/" target="_blank">Jest/Enzyme</a></li>
-                <li class="skill"><a class="skill" href="https://restfulapi.net/" target="_blank">Restful APIs</a></li>
-                <li class="skill"><a class="skill" href="https://tutorials.ubuntu.com/tutorial/command-line-for-beginners#0" target="_blank">Linux Command Line</a></li>
-                <li class="skill"><a class="skill" href="https://jquery.com/" target="_blank">jQuery</a></li>
-                <li class="skill"><a class="skill" href="https://reactjs.org/" target="_blank">ReactJS</a></li>
-                <li class="skill"><a class="skill" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS" target="_blank">Object Oriented Programming</a></li>
-              
-                <li class="skill"><a class="skill" href="https://github.com/Cosmic-Noir" target="_blank">Git & GitHub</a></li>
-            </ul>
-                <h2 class="info">Education</h2>
-                <ul class="skillList">
-                    <li class="skill"><a class="skill" href="https://www.bloc.io/" target="_blank">Bloc - Web Development 2019-Present</a></li>
-                    <li class="skill"><a class="skill" href="https://www.codecademy.com/profiles/cosmic_noir" target="_blank">Codecademy - Web Development - 250 Hours of coursework</a></li>
-                    <li class="skill"><a class="skill" href="https://twin-cities.umn.edu/" target="_blank">B.S. Psychology - Univeristy of Minnesota, Twin Cities</a></li>
-                </ul>
-        </section>
-        <section class="section" id="contact" data-aos="zoom-in-up">
-                <h2 class="title">Contact:</h2>               
-                <h3 class="info"><a href="mailto:doucette.kr@gmail.com" target="_blank" id="eMail">Doucette.Kr@gmail.com</a></h3>
-                <div class="comm">
-                    <!-- <a href="https://www.hackerrank.com/doucette_kr?hr_r=1" target="_blank"><img src="images/hackerRank.png" alt="Replit link" class="contact"></a> -->
-                    <!-- <a href="https://repl.it/@KristenDoucette" target="_blank"><img src="images/replit.png" alt="Replit link" class="contact"></a> -->
-                    <a href="https://www.linkedin.com/in/kristen-doucette-303bb22a/" target="_blank"><img src="images/linkedin.png" alt="linkedin link" class="contact" role="link"></a>
-                    <a href="https://github.com/Cosmic-Noir" target="_blank"><img src="images/github.png" alt="gitHub link" class="contact" role="link"></a>
-                   
-                    <a href="mailto:doucette.kr@gmail.com" target="_blank"><img src="images/email.png" alt="email link" class="contact" role="link"></a>
-                    
-                </div>
-            </section> 
+      </section>
     </main>
     <footer class="foot">
-        <h2>&copy; 2020.</h2>
-            
+      <h2>&copy; 2020.</h2>
     </footer>
     <!-- AOS CDN and link -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 1500,
-        });
+      AOS.init({
+        duration: 1500
+      });
     </script>
-    
-</body>
+  </body>
 </html>
