@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="index.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Fauna+One&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" SameSite="none">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <nav role="navigation">
+    <nav>
         <ul class="navList">
             <li><a href="" class="link">KD</a></li>
             <li><a href="#portfolio" class="link">Portfolio</a></li>
             <li><a href="#contact" class="link">Contact</a></li>
         </ul>
     </nav>
-    <main role="Main">
+    <main role="main">
         <section class="section" data-aos="zoom-in">
             <h2 class="title">Turn Problems Into Positive</h2>
             <img src="images/logo3.png" alt="KD logo" class="animated bounceInDown slow" role="link">
@@ -29,9 +29,9 @@
             <br><br>
             Outside of coding, I'm slaying zombies, training my kitties, sipping tea, reading and writing fantasy, and biking through the beloved foothills of northern Colorado. </p>
         </section>
-        <section class="section" id="portfolio" role="contentinfo" >
+        <section class="section" id="portfolio" >
             <h2 class="title">Portfolio:</h2>
-            <div class="proj" data-aos="fade-right">
+            <section class="proj" data-aos="fade-right">
                 <div class="flex">
                     <h3 class="info">Balance</h3>
                     <p class="desc">Full stack personal budgeting application. Allows users to create custom monthly budgets with reusable templates. Calculates user's leftover income each paycheck and provides monthly reports on spending. </p>
@@ -42,8 +42,8 @@
 
                 </div>
                 <a href="https://balance-app.cosmicnoir.now.sh/" target="_blank"><img src="images/deskRepo1.png" alt="Example image of application" class="appPic " role="link"></a>
-            </div>
-            <div class="proj" data-aos="fade-left">
+            </section>
+            <section class="proj" data-aos="fade-left">
                     <div class="flex">
                         <h3 class="info">Trash Tracker</h3>
                         <p class="desc">Full stack application that allows users to participate in the trending Trash# Challenge. Users can post 'trash sites', coordinate with others, clean up sites, and track an overal global score. </p>
@@ -54,8 +54,8 @@
 
                     </div>
                     <a href="https://trash-tag-tracker-app.cosmicnoir.now.sh/" target="_blank"><img src="images/tt.png" alt="Example image of application" class="appPic" role="link"></a>
-                </div>
-            <div class="proj" data-aos="fade-right">
+                </section>
+            <section class="proj" data-aos="fade-right">
                 <div class="flex">
                     <h3 class="info">VidVoid</h3>
                     <p class="desc">Media exploration app that suggests TV shows or movies and create sharable playlists. </p>
@@ -64,8 +64,8 @@
                     <span><a href="https://github.com/Cosmic-Noir/vidVoid" class="live" target="_blank"> Repo</a></span>
                 </div>
                 <a href="https://vidvoid.cosmicnoir.now.sh/" target="_blank"><img src="images/vidVoid.png" alt="Example image of application" class="appPic"></a>
-            </div>
-            <div class="proj" data-aos="fade-left">
+            </section>
+            <section class="proj" data-aos="fade-left">
                 <div class="flex">
                     <h3 class="info">Zelda OoT Quiz App</h3>
                     <p class="desc">Interactive web application <br>testing Zelda Ocarina of Time knowledge.</p>
@@ -74,8 +74,8 @@
                     <span><a href="https://github.com/Cosmic-Noir/ZeldaQuizApp" class="live" target="_blank"> Repo</a></span>
                 </div>
                 <a href="https://cosmic-noir.github.io/ZeldaQuizApp/" target="_blank"><img src="images/zeldaApp.png" alt="Example image of application" class="appPic" role="link"></a>
-            </div>
-        </section>
+            </section>
+        </div>
         <section class="section" id="resume" data-aos="fade-left">
             <h2 class="info">Skills</h2>
             <ul class="skillList">
@@ -117,7 +117,7 @@
             </section> 
     </main>
     <footer class="foot">
-        <h4>&copy; 2020.</h2>
+        <h2>&copy; 2020.</h2>
             
     </footer>
     <!-- AOS CDN and link -->
