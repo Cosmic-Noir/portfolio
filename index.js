@@ -1,5 +1,6 @@
 function handleAll() {
   handleClickMobile();
+  handlClickNav();
 }
 
 handleAll();
@@ -8,5 +9,11 @@ handleAll();
 function handleClickMobile() {
   $(".mobileMenu").click(function(e) {
     $(".mobileNav").toggleClass("hidden");
+  });
+}
+
+function handlClickNav() {
+  $(".mobileNav").click(function(e) {
+    $(".mobileNav").addClass("hidden");
   });
 }
