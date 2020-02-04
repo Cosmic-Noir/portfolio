@@ -35,6 +35,7 @@ body {
 main {
   margin-top: 40px;
 }
+
 nav {
   background-color: hsla(194, 85%, 43%, 0.801);
   font-family: "Fauna One", serif;
@@ -153,6 +154,7 @@ li:hover {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 100%;
   /* margin: 10px; */
 }
 
