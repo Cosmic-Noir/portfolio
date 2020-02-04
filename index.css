@@ -45,9 +45,7 @@ nav {
 }
 
 .navList {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
+  display: none;
 }
 
 li {
@@ -104,6 +102,10 @@ li:hover {
   text-decoration: none;
 }
 
+.hidden {
+  display: none;
+}
+
 .info {
   color: hsla(195, 87%, 12%, 0.801);
   padding: 10px;
@@ -112,6 +114,18 @@ li:hover {
 
 .info {
   padding: 10px;
+}
+
+.mobileMenu {
+  height: 30px;
+  width: 30px;
+  float: right;
+  margin: 5px;
+}
+
+.mobileNav {
+  list-style-type: none;
+  padding-top: 30px;
 }
 
 .mobilePic {
@@ -186,8 +200,16 @@ li:hover {
     height: 300px;
     width: 400px;
   }
+  .mobileMenu {
+    display: none;
+  }
   .mobilePic {
     display: none;
+  }
+  .navList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
   }
 }
 
